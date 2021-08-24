@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello Sagar" > /tmp/test
+echo "Hello Sagar from $HOSTNAME" > /tmp/test
+
