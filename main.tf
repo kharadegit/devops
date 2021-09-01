@@ -15,10 +15,10 @@ resource "aws_launch_configuration" "app_server" {
     Name = var.instance-name
   }
 }
-resource "aws_security_group" "sg" {
-  tags = {
-    type = "launch-wizard-2"
-  }
-}
+#resource "aws_security_group" "sg" {
+#  tags = {
+#    type = "launch-wizard-2"
+#  }
+#}
 
 
