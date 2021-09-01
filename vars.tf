@@ -1,15 +1,15 @@
 variable "ami" {
-  default = "ami-04db49c0fb2215364"
+ # default = "ami-04db49c0fb2215364"
 }
 
 variable "instance-type" {
-  default = "t2.micro"
+ # default = "t2.micro"
 }
 
 variable "key-name" {
-  default = "forwader"
+  #default = "forwader"
 }
 
 variable "instance-name"{
-default = "terraform-testbox"
+#default = "terraform-testbox"
 }
