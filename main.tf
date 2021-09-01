@@ -5,7 +5,7 @@ provider "aws" {
   secret_key  = "/J86ssw3ep1NkKNT7erV74gu3RDeu81UoNyYzSwm"
 }
 
-resource "aws_instance" "app_server" {
+resource "aws_launch_configuration" "app_server" {
   ami           = var.ami
   instance_type = var.instance-type
   key_name = var.key-name
