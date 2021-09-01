@@ -6,7 +6,7 @@ provider "aws" {
 }
 
 resource "aws_launch_configuration" "app_server" {
-  ami           = var.ami
+  image_id           = var.ami
   instance_type = var.instance-type
   key_name = var.key-name
   user_data = data.template_file.userdata.rendered
