@@ -10,7 +10,7 @@ resource "aws_instance" "app_server" {
   instance_type = var.instance-type
   key_name = var.key-name
   user_data = data.template_file.userdata.rendered
-  user = data.template_file.testdata.rendered
+  #user = data.template_file.testdata.rendered
   tags = {
     Name = var.instance-name
   }
